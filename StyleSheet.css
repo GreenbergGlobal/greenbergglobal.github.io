@@ -12,7 +12,12 @@ h1 {
     font-family: semibold;
 }
 
-.fancy_text{
+.container {
+    padding: 20%;
+    background-color: 
+}
+
+.fancy_text {
     font-family: standard;
     font-size: 105%;
 }
@@ -28,6 +33,7 @@ h1 {
 .nav_right {
     font-family: standard;
     float: right;
+    background-color: #00858c;
 }
 
 .nav_right a {
