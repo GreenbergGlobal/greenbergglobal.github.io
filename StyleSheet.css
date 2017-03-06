@@ -12,33 +12,38 @@ h1 {
     font-family: semibold;
 }
 
-.nav {
+.fancy_text{
     font-family: standard;
-    float:left;
-    background-color: orange;
-    color: black;
-    text-decoration: none;
-    transition-duration: 0.5;
+    font-size: 105%;
 }
 
-.nav:hover {
-    background-color: orangered;
-    color: black;
+.nav_container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #750000;
 }
 
 .nav_content {
     font-family: standard;
-    float:left;
-    background-color: orange;
-    color: black;
-    text-decoration: none;
-    transition-duration: 0.5;
-    width: 20%;
-    font-size: 125%;
+    float: left;
 }
 
-.nav_content:hover {
-    background-color: orangered;
-    color: black;
-    font-size: 150%;
+.nav_content a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration: 0.5;
+}
+
+.nav_content a:hover {
+    background-color: #111;
+    transition-duration: 0.5;
+}
+
+.active {
+    background-color: #ff6e00;
 }
