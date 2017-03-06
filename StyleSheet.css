@@ -25,6 +25,25 @@ h1 {
     background-color: #750000;
 }
 
+.nav_right {
+    font-family: standard;
+    float: right;
+}
+
+.nav_right a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration: 0.5;
+}
+
+.nav_right a:hover {
+    background-color: #111;
+    transition-duration: 0.5;
+}
+
 .nav_content {
     font-family: standard;
     float: left;
