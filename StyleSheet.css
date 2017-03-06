@@ -1,0 +1,44 @@
+@font-face {
+    font-family: standard;
+    src: url('OptimusPrinceps.ttf');
+}
+
+@font-face {
+    font-family: semibold;
+    src: url('OptimusPrincepsSemiBold.ttf');
+}
+
+h1 {
+    font-family: semibold;
+}
+
+.nav {
+    font-family: standard;
+    float:left;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5;
+}
+
+.nav:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.nav_content {
+    font-family: standard;
+    float:left;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5;
+    width: 20%;
+    font-size: 125%;
+}
+
+.nav_content:hover {
+    background-color: orangered;
+    color: black;
+    font-size: 150%;
+}
